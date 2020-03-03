@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT batting.playerid) FROM batting LEFT JOIN master ON batting.playerid = master.playerid WHERE ab >= 50 AND CAST(h AS FLOAT)/CAST(ab AS FLOAT) > 0.3 AND yearid = 1995 AND height < 72;

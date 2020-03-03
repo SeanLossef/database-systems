@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM (SELECT DISTINCT playerid FROM pitching WHERE yearid >= 1975 GROUP BY yearid, playerid HAVING SUM(sv) > 40) AS x;

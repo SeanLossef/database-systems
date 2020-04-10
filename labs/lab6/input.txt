@@ -1,0 +1,6 @@
+Input for test methods should be here, one per line (leave this line in the file)
+' OR 1=1; --
+' OR 1=1; --
+'; SELECT recipe FROM recipe WHERE course='Dessert'; --
+Hamburger'); ALTER TABLE orders ALTER COLUMN filled SET DEFAULT now(); INSERT INTO orders(recipe) VALUES('Hamburger') RETURNING order_number; --
+100000 ; SELECT recipe FROM recipe WHERE char_length(course)=7; --

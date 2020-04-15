@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<restaurant>
+	<name>Data Bites Restaurant</name>
+	<menu>
+		<recipes>
+			<recipe name="Chili" serves="1" season="Fall">
+				<ingredients>
+					<ingredient>Beef</ingredient>
+				</ingredients>
+				<instructions>Cook the chili on the stove</instructions>
+			</recipe>
+			<recipe name="Ramen" serves="2">
+				<ingredients>
+					<ingredient>Noodles</ingredient>
+					<ingredient>Egg</ingredient>
+					<ingredient>Green Onion</ingredient>
+					<ingredient>Carrot</ingredient>
+					<ingredient>Broth</ingredient>
+					<ingredient>Salt</ingredient>
+				</ingredients>
+				<instructions>Cook the ramen, and serve it to them</instructions>
+			</recipe>
+		</recipes>
+	</menu>
+	<employees>
+		<employee>
+			<name>Mark Cuban</name>
+			<payrate>10.00</payrate>
+			<job>dishwasher</job>
+		</employee>
+		<employee>
+			<name>Chef Michael</name>
+			<payrate>120.00</payrate>
+			<job>cook</job>
+		</employee>
+		<employee>
+			<name>Joe Smith</name>
+			<payrate>100.00</payrate>
+			<job>manager</job>
+		</employee>
+	</employees>
+</restaurant>
